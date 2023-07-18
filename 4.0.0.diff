@@ -1,0 +1,20 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 3654a99a4..63f19482c 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -166,7 +166,6 @@ set(GTSAM_BOOST_LIBRARIES
+     ${Boost_THREAD_LIBRARY_RELEASE}
+     ${Boost_DATE_TIME_LIBRARY_RELEASE}
+     ${Boost_REGEX_LIBRARY_RELEASE}
+-  debug
+     ${Boost_SERIALIZATION_LIBRARY_DEBUG}
+     ${Boost_SYSTEM_LIBRARY_DEBUG}
+     ${Boost_FILESYSTEM_LIBRARY_DEBUG}
+@@ -184,7 +183,6 @@ else()
+         optimized
+           ${Boost_TIMER_LIBRARY_RELEASE}
+           ${Boost_CHRONO_LIBRARY_RELEASE}
+-        debug
+           ${Boost_TIMER_LIBRARY_DEBUG}
+           ${Boost_CHRONO_LIBRARY_DEBUG}
+         )
